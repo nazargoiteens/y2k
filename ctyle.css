@@ -1021,3 +1021,19 @@ html {
     align-items: center;
     padding: 50px 60px;
 }
+
+.glow {
+    position: fixed;
+    width: 1000px;
+    height: 1000px;
+    pointer-events: none;
+    z-index: 100000000000000000000000000000000000000000;
+
+    background: radial-gradient(
+        85.61% 61.6% at 50% 50%,
+        rgba(253, 211, 77, 0.15) 0%,
+        rgba(253, 211, 77, 0) 70%
+    );
+
+    transform: translate(-50%, -50%);
+}
