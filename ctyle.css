@@ -122,7 +122,6 @@ html {
     gap: 20px;
     backdrop-filter: blur(20px);
     background: #ffffffb3;
-    border: 1px solid #efeeeeb3;
     padding: 0 0 0 48px;
 }
 
@@ -194,11 +193,16 @@ html {
 
 
 .section-1 {
+
+    background: #f6f6f6;
+}
+
+.section-1container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 194px 0px 0 48px;
-    background: #f6f6f6;
+
 }
 
 .section-1__left {
@@ -497,12 +501,17 @@ html {
 
 .section-2 {
 
+
+    background: #f6f6f6;
+
+
+}
+
+.section-2-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #f6f6f6;
     padding: 0 0 0 48px;
-
 }
 
 .section-2right {}
@@ -722,7 +731,13 @@ html {
 
 .section-4 {
     background: #f6f6f6;
+    
+}
+
+.section-4-container {
     padding: 0 60px 128px 60px;
+    margin: 0 auto;
+    max-width: 1280px;
 }
 
 .section-4_zag {
