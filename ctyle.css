@@ -731,7 +731,7 @@ html {
 
 .section-4 {
     background: #f6f6f6;
-    
+
 }
 
 .section-4-container {
@@ -979,7 +979,13 @@ html {
     line-height: 120%;
     letter-spacing: -0.05em;
     color: #2d2f2f;
+    transition: 0.5s;
+}
 
+
+
+.section-6_foot-h2:hover {
+    transform: scale(2);
 }
 
 .section-6_foot-list {
@@ -1029,11 +1035,9 @@ html {
     pointer-events: none;
     z-index: 100000000000000000000000000000000000000000;
 
-    background: radial-gradient(
-        85.61% 61.6% at 50% 50%,
-        rgba(253, 211, 77, 0.15) 0%,
-        rgba(253, 211, 77, 0) 70%
-    );
+    background: radial-gradient(85.61% 61.6% at 50% 50%,
+            rgba(253, 211, 77, 0.15) 0%,
+            rgba(253, 211, 77, 0) 70%);
 
     transform: translate(-50%, -50%);
 }
